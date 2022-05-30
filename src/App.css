@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: url("./img/colorful-background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  font-family: "Patrick Hand", cursive;
+}
+
+.wrapper {
+  text-align: center;
+  width: 50%;
+  margin: 5% auto;
+  padding: 20px;
+  border-radius: 20px;
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.1),
+    rgba(255, 255, 255, 0.1)
+  );
+  backdrop-filter: blur(30px);
+  -webkit-backdrop-filter: blur(30px);
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.3);
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  display: inline-block;
+}
+
+button img {
+  height: 100px;
+  cursor: pointer;
+}
+
+.session {
+  font-size: 3rem;
+}
+
+.timer span {
+  font-size: 10rem;
+}
+
+.caro-wrap {
+  margin: 0 20%;
+  cursor: pointer;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.3);
+  border-radius: 20px;
+  background: linear-gradient(
+    180deg,
+    rgba(109, 36, 131, 0.2),
+    rgba(121, 255, 255, 0.2)
+  );
+}
+
+.carousel {
+  margin: auto;
+  color: white;
+  overflow: hidden;
+}
+
+.inner-carousel {
+  position: relative;
+  display: flex;
+  gap: 7rem;
+  font-size: 3rem;
+  right: 30%;
+}
+
+.inner-carousel div:hover {
+  color: black;
+}
+
+.active {
+  color: black;
+}
+
+.inactive {
+  color: white;
+}
+
+.react-slider-wrap {
+  margin-top: 30px;
+}
+
+.rslider {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 30%;
+  margin: auto;
+  border-radius: 20px;
+  backdrop-filter: blur(30px);
+  padding: 30px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.3);
+  background: linear-gradient(
+    180deg,
+    rgba(109, 36, 131, 0.2),
+    rgba(121, 255, 255, 0.2)
+  );
+}
+
+.thumb {
+  /* background-color: blue; */
+  background: linear-gradient(
+    135deg,
+    rgba(109, 36, 131, 0.2),
+    rgba(121, 255, 255, 0.2)
+  );
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  border-radius: 1rem;
+  border: none;
+  backdrop-filter: blur(100px);
+  box-shadow: 0 8px 15px 0 rgba(0, 0, 0, 0.3);
+}
